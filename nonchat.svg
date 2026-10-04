@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <!-- Black background -->
+  <rect width="600" height="320" fill="#000000"/>
+
+  <!-- Speech bubble + slash (centered) -->
+  <g transform="translate(300, 130)">
+    <!-- Main bubble path (exact shape from your image) -->
+    <path d="M0,-70
+             C55,-70 95,-35 95,5
+             C95,40 70,70 35,80
+             L0,105
+             L-35,80
+             C-70,70 -95,40 -95,5
+             C-95,-35 -55,-70 0,-70Z"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="18"
+          stroke-linejoin="round"
+          stroke-linecap="round"/>
+
+    <!-- Diagonal cancel slash -->
+    <line x1="-75" y1="-55" x2="75" y2="55"
+          stroke="#FFFFFF"
+          stroke-width="20"
+          stroke-linecap="round"/>
+
+    <!-- Small gray accent on the tail tip (matching the original) -->
+    <path d="M-12,88 L0,105 L12,88"
+          fill="#6B6B6B"
+          stroke="none"/>
+  </g>
+
+  <!-- NONCHAT text -->
+  <text x="300" y="270"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="42"
+        font-weight="700"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="6">
+    NONCHAT
+  </text>
+</svg>
