@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="nonchat.svg" alt="NONCHAT" width="420"/>
+</p>
+
+<br>
+
 # NONCHAT
 
-> terminal-based ephemeral chat rooms. anonymous by default.
+> **terminal-based ephemeral chat rooms. anonymous by default.**
 > **credit: Anonymous-beta (chinedu)**
 
 nonchat is a lightweight, self-hostable chat system with a real TUI client.
