@@ -1,0 +1,19 @@
+# binaries
+/nonchat-server
+/nonchat-client
+/server
+/client
+*.exe
+
+# go
+/bin/
+/dist/
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# os
+.DS_Store
+Thumbs.db
